@@ -7,8 +7,8 @@
     <link href="_/css/custom.css" rel="stylesheet">
 </head>
 <body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
-    <?php //include "_/components/php/navbar.php"?>
-    <?php //include "_/components/php/search.php"?>
+    <?php include "_/components/php/navbar.php"?>
+    <?php include "_/components/php/search.php"?>
     
     <!-- category -->
     <section id="category" class="main-category">
@@ -167,9 +167,22 @@
         </div>
     </section> <!-- delivery -->
 
-    <!-- -->
-    <section id="delivery" class="main-delivery">
-
+    <!-- video -->
+    <section class="main-video">
+        <div class="container">
+            <div class="row">
+                <div class="b-rentVideo col-xs-12">
+                    <div class="youtube-container">
+                        <div class="youtube-player" data-id="ZAOSrpiOdE0">
+                            <div>
+                                <img class="youtube-thumb" src="/arenda/img/rent_video.jpg">
+                                <div class="play-button"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <?php include "_/components/php/footer.php"?>
