@@ -66,7 +66,7 @@
     <!-- product -->
     <section id="product" class="main-product">
         <div class="main-product-top"></div>
-        <div class="container">
+        <div class="container main-product-content">
             <div class="row main-title">
                 <div class="text-center">
                     <p class="main-product-title">Рекомендуемые товары</p>
@@ -81,7 +81,7 @@
                     <a href="#">
                         <div class="main-product-wrapper">
                             <div class="main-product-image">
-                                <img itemprop="image" alt="" src="/images/product_image_01.png">
+                                <img alt="" src="/images/product_image_01.png">
                             </div>
                             <div class="main-product-info">
                                 <div class="main-product-price">
@@ -89,16 +89,88 @@
                                 </div>
                                 <div class="main-product-brand">Togas</div>
                             </div>
-                            <div class="main-product-description">Подушка Classic by Togas "Антистресс"</div>
+                            <div class="main-product-description">Подушка Classic by Togas "Антист</div>
                         </div>
                     </a>
                 </div>
-                <div class="col-xs-12 col-md-6 col-lg-3 text-center">HERE2</div>
-                <div class="col-xs-12 col-md-6 col-lg-3 text-center">HERE3</div>
-                <div class="col-xs-12 col-md-6 col-lg-3 text-center">HERE4</div>
+                <div class="col-xs-12 col-md-6 col-lg-3 text-center">
+                    <a href="#">
+                        <div class="main-product-wrapper">
+                            <div class="main-product-new"></div>
+                            <div class="main-product-image">
+                                <img alt="" src="/images/product_image_02.png">
+                            </div>
+                            <div class="main-product-info">
+                                <div class="main-product-price">
+                                    <span>5 499</span><span>P</span>
+                                </div>
+                                <div class="main-product-brand">I.P.T.S</div>
+                            </div>
+                            <div class="main-product-description">Переноска для животных I.P.T.S. Gulliver</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3 text-center">
+                    <a class="main-product-deatail-link" href="#">
+                        <div class="main-product-deatail-wrapper">
+                            <div class="main-product-deatail-price">
+                                <span>3 350</span><span>P</span>
+                            </div>
+                            <div class="main-product-deatail-image"></div>
+                            <div class="main-product-deatail-info">
+                                <div class="main-product-deatail-brand">Disney</div>
+                                <div class="main-product-deatail-header">Мягкая игрушка "Тигра"</div>
+                                <div class="main-product-deatail-description">Интерактивный плюшевый приятель для вашего малыша. Старый, добрый приятель из великолепного мультфильма.</div>
+                            </div>
+                            <div class="main-product-deatail-bottom">
+                                <p>Подробнее</p>
+                                <button class="btn btn-default" type="submit">Купить</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3 text-center">
+                    <a href="#">
+                        <div class="main-product-wrapper">
+                            <div class="main-product-image">
+                                <img alt="" src="/images/product_image_03.png">
+                            </div>
+                            <div class="main-product-info">
+                                <div class="main-product-price">
+                                    <span>12 499</span><span>P</span>
+                                </div>
+                                <div class="main-product-brand">PETSLOVER</div>
+                            </div>
+                            <div class="main-product-description">Домик для кошек Dizzie</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="main-product-more text-center">
+                <button class="btn btn-default" type="submit">EЩЕ 200+ СПЕЦИАЛЬНЫХ ПРЕДЛЖЕНИЙ</button>
             </div>
         </div>
     </section><!-- product -->
+
+    <!-- delivery -->
+    <section id="delivery" class="main-delivery">
+        <div class="container main-delivery-content">
+            <div class="row main-title">
+                <div class="text-center">
+                    <p class="main-product-title">Доставка и оплата</p>
+                    <p class="main-product-underline"></p>
+                </div>
+                <div class="text-center">
+                    <p class="main-product-text">Текстовый блок с кратким описанием вариантов доставки и оплаты</p>
+                </div>
+            </div>
+        </div>
+    </section> <!-- delivery -->
+
+    <!-- -->
+    <section id="delivery" class="main-delivery">
+
+    </section>
 
     <?php include "_/components/php/footer.php"?>
     
