@@ -1,8 +1,8 @@
-<footer class="main-footer">
-    <div class="main-footer-top"></div>
-    <div class="main-footer-top_border"></div>
+<footer class="s-footer">
+    <div class="s-footer-top"></div>
+    <div class="s-footer-top_border"></div>
     <div class="container">
-        <div class="row main-footer-links">
+        <div class="row s-footer-links">
             <!-- hidden-xs -->
             <div class="col-lg-3 col-lg-offset-3 col-md-3 col-md-offset-3 col-sm-3 col-sm-offset-2 hidden-xs">
                 <p><a href="#">Правила сайта</a></p>
@@ -34,8 +34,8 @@
             </div>
             <!-- end: visible-xs -->
         </div>
-        <div class="row main-footer-phone text-center">
-            <p class="main-footer-phone_number">8 919 623 82 67</p>
+        <div class="row s-footer-phone text-center">
+            <p class="s-footer-phone_number">8 919 623 82 67</p>
             <div class="col-md-4 col-md-offset-4">
                 <div class="social">
                     <a href="http://vk.com/mylinker"><div class="vk social_label"></div></a>
@@ -46,5 +46,5 @@
             </div>
         </div>
     </div>
-    <div class="main-footer-bottom"></div>
+    <div class="s-footer-bottom"></div>
 </footer>

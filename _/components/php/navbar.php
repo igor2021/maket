@@ -1,4 +1,4 @@
-<nav id="navbar" class="navbar navbar-default main-navbar">
+<nav id="navbar" class="navbar navbar-default s-navbar">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -12,7 +12,7 @@
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="main-navbar-collapse">
+    <div class="collapse navbar-collapse" id="s-navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Аренда</a></li>
         <li><a href="#">Услуги</a></li>
@@ -21,7 +21,7 @@
         <li class="divider"></li>
         <li><a href="#">Войти</a></li>
         <li class="divider"></li>
-        <li><a href="#"><span class="main-icon"><img src="/images/cart.png"></span> Корзина</a></li>
+        <li><a href="#"><span class="s-icon"><img src="/images/cart.png"></span> Корзина</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
