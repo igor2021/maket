@@ -11,24 +11,23 @@ body {
  * Main
  */
 /* main-navbar */
-#main-navbar {
+.main-navbar {
 	height: 100px;
 	background-color: #fff;
 	font-size: 15px;
 	margin-bottom: 0px;
 }
-
-#main-navbar-collapse {
+.main-navbar .navbar-collapse {
 	padding: 26px 18px;
 }
-#main-navbar .navbar-nav > li > a {
+.main-navbar .navbar-nav > li > a {
 	color: #32527D;
 	position: relative;
 	margin: 10px 15px;
 	padding: 3px;
 	border-bottom: 3px solid transparent;
 }
-#main-navbar .navbar-nav > li.divider {
+.main-navbar .navbar-nav > li.divider {
 	width: 2px;
 	height: 18px;
 	background-image: url('/images/divider.png');
@@ -36,16 +35,17 @@ body {
 	margin-left: 8px;
 	margin-right: 8px;
 }
-#main-navbar .main-icon {
+.main-navbar .main-icon {
 	width: 28px;
 	padding-right: 36px;
 }
-#main-navbar .main-icon > img {
+.main-navbar .main-icon > img {
 	position: absolute;
 	top: -2px;
 }
-#main-navbar .navbar-nav > li.active > a {
-	background-color: #fff;
+.main-navbar .navbar-nav > li.active > a {
+    color: #32527D;
+    background-color: #fff;
 	border-bottom: 3px solid #32527D;
 	font-weight: bold;
 }
@@ -76,6 +76,16 @@ body {
     height: 48px;
     padding: 12px 0;
     width: 160px;
+}
+
+/* main-title */
+.main-title {
+    padding-top: 60px;
+}
+
+/* main-section */
+.main-section {
+    padding-top: 60px;
 }
 
 /* main-footer */
@@ -151,9 +161,119 @@ body {
     text-shadow: 1px 1px #777, 2px 2px #666, 3px 3px #555, 4px 4px #333;
 }
 
+/* main-category */
+.main-category-title {
+    font-size: 16px;
+    color: #1c3f6e;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.main-category-underline {
+    border-top: 3px solid #1c3f6e;
+    margin: 0 auto 30px;
+    width: 150px;
+}
+.main-category-text {
+    color: #767676;
+}
+.main-category-link {}
+.main-category-name {
+    font-weight: bold;
+    color: #767676;
+    text-transform: uppercase;
+}
+.main-category-link:hover {
+    text-decoration: none;
+}
+.main-category-link:hover > .main-category-name {
+    text-decoration: none;
+    color: #2b669a;
+}
+
+/* main-product */
+.main-product {
+    background-color: #EFF3F3;
+}
+.main-product-top {
+    border-left: 900px solid transparent;
+    border-right: 900px solid transparent;
+    border-top: 50px solid white;
+    left: 50%;
+    margin: 0 0 0 -900px;
+    position: absolute;
+    z-index: 2;bo
+}
+.main-product-title {
+    font-size: 16px;
+    color: #1c3f6e;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.main-product-underline {
+    border-top: 3px solid #1c3f6e;
+    margin: 0 auto 30px;
+    width: 150px;
+}
+.main-product-text {
+    color: #767676;
+}
+.main-product-wrapper {
+    position: relative;
+    width: 267px;
+    height: 294px;
+}
+.main-product-image::before {
+    background: url("/images/product_wrapper.png") no-repeat scroll 0 0 / 100% auto;
+    content: "";
+    height: 294px;
+    position: absolute;
+    top: 0;
+    width: 267px;
+    z-index: 10;
+}
+.main-product-image > img {
+    height: 182px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.main-product-info {
+    padding: 15px 20px;
+    height: 40px;
+    overflow: hidden;
+}
+.main-product-price {
+    float: left;
+}
+.main-product-price > span:first-of-type {
+    color: #1C3F6F;
+    font-weight: bold;
+    font-size: 16px;
+}
+.main-product-price > span:last-of-type {
+    color: #1C3F6F;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 3px;
+}
+.main-product-brand {
+    float: right;
+    text-decoration: underline;
+}
+.main-product-description {
+    color: #A2A2A2;
+
+}
+
 /*
  * Social
 */
+.social {
+    margin: 10px auto 0;
+    width: 190px;
+}
 .vk {
     background: rgba(0, 0, 0, 0) url("/images/vk.png") no-repeat scroll center top;
 }
@@ -167,6 +287,24 @@ body {
     background: rgba(0, 0, 0, 0) url("/images/fb.png") no-repeat scroll center top;
 }
 .fb.social_label {
+    background-position: 50% center;
+    float: left;
+    height: 33px;
+    width: 25%;
+}
+.inst {
+    background: rgba(0, 0, 0, 0) url("/images/inst.png") no-repeat scroll center top;
+}
+.inst.social_label {
+    background-position: 50% center;
+    float: left;
+    height: 33px;
+    width: 25%;
+}
+.yout {
+    background: rgba(0, 0, 0, 0) url("/images/yout.png") no-repeat scroll center top;
+}
+.yout.social_label {
     background-position: 50% center;
     float: left;
     height: 33px;

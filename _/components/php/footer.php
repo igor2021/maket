@@ -20,7 +20,7 @@
                 <p><a href="#">Служба поддержки</a></p>
                 <p><a href="#">Вопросы - ответы</a></p>
                 <p><a href="#">Заказать звонок</a></p>
-                <p><a data-target="#users-message" data-url="/mobile-device" class="btn-ajax-modal-prilozh" href="#">Мобильное приложение</a></p>
+                <p><a data-target="#users-message" data-url="/mobile-device" href="#">Мобильное приложение</a></p>
             </div>
             <!-- end: hidden-xs -->
             <!-- visible-xs -->
@@ -29,18 +29,20 @@
                 <p><a href="#">Безопасность и гарантии</a></p>
             </div>
             <div class="visible-xs col-xs-6">
-                <p><a href="kak-zarabotat-na-mylinker">Как заработать</a></p>
-                <p><a href="/about-company">О компании</a></p>
+                <p><a href="#">Как заработать</a></p>
+                <p><a href="#">О компании</a></p>
             </div>
             <!-- end: visible-xs -->
         </div>
         <div class="row main-footer-phone text-center">
             <p class="main-footer-phone_number">8 919 623 82 67</p>
             <div class="col-md-4 col-md-offset-4">
-                <a href="http://vk.com/mylinker"><div class="vk social_label"></div></a>
-                <a href="https://www.facebook.com/mylinker.offical.1"><div class="fb social_label"></div></a>
-                <a href="https://instagram.com/my_linker/"><div class="inst social_label"></div></a>
-                <a href="https://www.youtube.com/channel/UCUe4enS2emtXhS7G3vXPCHQ"><div class="yout social_label"></div></a>
+                <div class="social">
+                    <a href="http://vk.com/mylinker"><div class="vk social_label"></div></a>
+                    <a href="https://www.facebook.com/mylinker.offical.1"><div class="fb social_label"></div></a>
+                    <a href="https://instagram.com/my_linker/"><div class="inst social_label"></div></a>
+                    <a href="https://www.youtube.com/channel/UCUe4enS2emtXhS7G3vXPCHQ"><div class="yout social_label"></div></a>
+                </div>
             </div>
         </div>
     </div>
