@@ -1,0 +1,807 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+	#select{
+		width: 78px;
+		padding: 13px 2px;
+	}
+	.btn-warning{
+		width: 96px;		
+	}
+
+	.feedback {
+    float: right;
+    padding: 11px 15px;
+  }
+
+  .advert_image::before{
+		width: 220px;
+		height: 253px;
+	}
+	.myadvert_wrapper{
+		width: 220px;
+		margin: 0 auto;
+	}
+	.advert_image {
+	  width: 220px;
+	  height: 150px;
+	  background-size: 100%;
+	} 
+	.advert_description{
+		font-size: 13px;
+		margin: -2px 20px
+	}
+	.rank{
+		margin: 10px 11px;
+	}
+	.feedback{
+		padding: 8px 15px;
+	}
+	.myadvert_line{
+		margin: 31px auto 0px;
+	}
+	.advert__new{
+		left: 20%;
+	}
+	.services__img img{height: 230px;}
+	.services__rankBlock{display: none;}
+	.services__wrapper{height: 245px;}
+	.services__bottom{height: 36px;}
+	.services__description{margin: 0px 0 0; padding-top: 5px;}
+	.services__new{left: 16.3%; top: -11px;}
+	.services__wrapperText-hover{height: 154px;}
+	.services__wrapperText{
+		height: 81px;
+    overflow: hidden;
+    margin-bottom: 10px;
+	}
+	.services__wrapper-hover{padding-top: 62px;}
+	.timer{
+		background: url("../img/timer2.png") no-repeat;
+		width: 113px;
+		height: 40px;
+		background-size: 100%;
+	}
+	.services__timer{
+		right: 0;
+	}
+
+	.b-myadvertList__text{
+		margin-right: 15px;
+		max-width: 100%;
+	}
+
+	.s-search__btn{width: 100%;}
+
+	/*servicesApartment*/
+	.carousel-inner{height: 342px;}
+	.carousel-inner img{
+	  width: 100%;
+	  min-height: 342px;
+	}
+	.b-time{width: 160px;}
+
+	.-rank_blue{margin: 0;float: right;}
+	.btn__owner{width: 160px;}
+	.b-owner__rank{margin-left: 0;}
+
+	.b-owner {margin-bottom: 15px;}
+	.b-map__owner__container {height: 180px;}
+
+	.users-message__rank{margin: 0;}
+	/*end servicesApartment*/
+
+	/* new-ad */
+	.ad__forms__input{width: 71%;}
+	.new-ad .form-group .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+		width: 71%;
+	}
+	.ad__forms__mult .bootstrap-select .btn-default{
+		width: auto;
+		position: absolute;
+	}
+	.new-ad .btn-warning {width: inherit;}
+
+	.calendar__price{width: 110px;}
+	.calendar__btn--orange{width: 40%;}
+	.new-ad2__btn-or{width: auto;}
+	/* end new-ad */
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+	.s-entrance:before, .navbar-default .navbar-nav > li > a, .s-entrance__link{
+		font-size: 12px;
+	}
+	.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+		font-size: 13px;
+	}
+	.s-entrance:before, .navbar-default .navbar-nav > li > a, .s-entrance__link{
+		margin-right: 16px;
+	}
+
+	.btn-warning{
+		height: 44px;
+	}
+	.s-search .s-form__location{
+		width: 277px;
+    height: 44px;
+    float: left;
+    margin-right: 15px;
+	}
+	.input-group{
+		float: left;
+		margin-right: 15px;
+	}
+	.input-group .input-group {
+    float: none;
+    margin-right: 0;
+	}
+	.b-search__item{
+		float: left;
+		padding: 0;
+	}
+	.s-search .input-group .form-control{
+		width: 105px;
+    height: 44px;
+	}
+	.input-group-addon .fa{
+		position: absolute;
+    top: 13px;
+	}
+	#select {
+		width: 78px;
+    height: 44px;
+    padding: 11px 2px;
+    margin-right: 12px;
+	}
+
+	.b-mainFilter_qBlock{
+		position: absolute;
+		top: 0px;
+		right: 0;
+	}
+	.b-hr{
+	  position: relative;
+	  top: -5px;
+	}
+
+	.advert_image::before{
+		width: 220px;
+		height: 253px;
+	}
+	.myadvert_wrapper{
+		width: 220px;
+		margin: 0 auto;
+	}
+	.advert_image {
+	  width: 220px;
+	  height: 150px;
+	  background-size: 100%;
+	} 
+	.advert_description{
+		font-size: 13px;
+		margin: -2px 20px
+	}
+	.rank{
+		margin: 10px 11px;
+	}
+	.feedback{
+		padding: 8px 15px;
+	}
+	.myadvert_line{
+		margin: 31px auto 0px;
+	}
+
+	.services__description{margin: 0px 0 0; padding-top: 5px;}
+	.b-services__howworks__step1, .b-services__howworks__step2, .b-services__howworks__step3, .b-services__howworks__step4{height: 145px;}
+
+	.s-btn__filters{
+		font-size: 15px;
+		padding: 10px 0;
+		width: 122px;
+		height: auto;
+	}
+
+	.footer::before{left: -40px;}
+	.footer::after{right: -40px;}
+	
+	.b-myadvertList__title{
+		float: none;
+		text-align: center;
+		max-width: 100%;
+	}
+	.b-myadvertList__rank{
+		float: none;
+		right: 0;
+	}
+	.b-myadvertList{
+		height: auto;
+	}
+	.b-myadvertList__pic{
+		height: auto;
+		border: none;
+	}
+	.b-myadvertList__rank .feedback{
+		padding: 0;
+	}
+	.b-myadvertList__title:first-child{
+		
+	}
+
+	.b-myadvertList__lBlock~.col-md-8{
+	  padding: 0 30px;
+	}
+	.b-myadvertList__text{
+		margin-right: 0;
+	}
+
+	.s-search .form-control{height: 44px; padding: 6px 12px;}
+	/* arenda.html */
+	.b-rentVideo:before,
+	.b-rentVideo:after{
+		border-width: 0 240px 15px 240px;
+		margin: 0 0 0 -240px;
+	}
+	.b-rentVideo:after{
+		border-width: 15px 240px 0 240px;
+	}
+	/* end arenda.html */
+
+	/* servicesApartment */
+	.carousel-inner{height: 353px;}
+	.carousel-inner img{
+	  width: 100%;
+	  min-height: 353px;
+	}
+	.b-owner__price{margin-top: 0;}
+	.b-owner{height: 260px;}
+	.b-owner__foto{
+		width: 48px;
+		height: 48px;
+	}
+	.b-comments__rating__ltext{font-style: 14px;}
+	.b-owner__name {
+    width: 100%;
+    float: none;
+	}
+	.b-owner__rank{margin: 0 0 0 63px!important;}
+	.owner__comment{
+		margin: 25px 0;
+	}
+	.b-owner__book{
+		position: absolute;
+		bottom: -195px;
+		width: 88%;
+	}
+	.b-time{width: 100%;}
+	.btn__owner{width: 100%;}
+
+	.-rank_blue{
+		margin: 0;
+		float: left;
+	}
+
+	
+	.b-comments__rating__ltext{
+		font-size: 14px;
+	}
+	.-rank_lblue{margin-left: 0;}
+	.b-comments__text{
+		margin-top: 30px;
+		margin-left: -81px;
+	}
+	.b-comments .b-comments__item{
+		border-top: 1px solid #e3e3e3;
+		padding-top: 22px;
+	}
+	.b-comments .btn{
+		width: 100%;
+		font-size: 13px;
+	}
+
+	.modal__booking .modal-dialog{width: 768px;}
+	.modal__booking__block{
+		position: relative;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.modal__booking__block .input-group{
+		margin: 0;
+		float: none;
+	}
+
+	.users-message__rank{margin: 0;}
+	#users-message .b-owner{height: auto;}
+	/* end servicesApartment */
+
+	/* new-ad */
+	.ad__forms__input{width: 72%;}
+	.new-ad .form-group .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+		width: 72%;
+	}
+	.ad__forms__mult .bootstrap-select .btn-default{
+		width: auto;
+		position: absolute;
+	}
+	.new-ad .btn-warning {width: inherit;}
+
+	#modal__calendar .calendar__date{
+    width: 100%;
+	}
+	#modal__calendar .input-group{
+		float: none;
+		margin-right: 0;
+	}
+	.calendar__price{width: 110px;}
+	.btn.new-ad2__btn-or{
+		width: auto;
+		height: auto;
+	}
+	/* end new-ad */
+ 
+	/* booking */
+	.b-booking .myadvert{padding-left: 0;}
+	.b-booking .fc-basic-view .fc-body .fc-row{height: 80px;}
+	/* booking */
+
+	/*  new-serviceAd */
+	.serviceAd__btn{
+		padding: 12px 17px;
+		height: auto;
+	}
+	.serviceAd__point__block{text-align: center;}
+	.new-serviceAd .b-similarAds__title{margin-bottom: 15px;}
+	/* end  new-serviceAd */
+
+	.s-icon > .s-icon-cart {
+		top: -56%;
+	}
+}
+
+@media only screen and (max-width : 991px) and (min-width : 768px) {
+	.b-comments__rating--lb{margin-top: 42px;}
+	.b-comments__rating--rb{
+		float: right;
+		position: absolute;
+		left: 15px;
+		top: 40px;
+	}
+	.input-group-addon{left: -40px;}
+
+	.s-search .form-control{height: 44px; padding: 6px 12px;}
+
+	/* Modal users-booking */
+	.modal__booking .modal-body{
+		position: static;
+	}
+	.modal__booking .fc-toolbar .fc-left{
+		position: absolute;
+		top: 85px;
+    left: 270px;
+	}
+	.modal__booking .modal__booking__block{
+		width: 368px;
+		position: absolute;
+		top: 145px;
+    left: 270px;
+	}
+	.modal__booking .modal__booking__error{
+		position: absolute;
+		top: 206px;
+		left: 270px;
+	}
+	.modal__booking .modal-body{
+		margin-top: -50px;
+	}
+	.b-similarAds__line{display: none;}
+
+	/* end Modal users-booking */
+
+	/* servicesApartment */
+	.visible-sm__inline{display: inline;}
+	/* end servicesApartment */
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	body{width: 100%;}
+	.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+			border: none;
+			padding: 0;
+			padding: 10px 0px;
+			font-size: 20px;
+	}
+	.s-entrance__link:hover, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+		border: none;
+		padding: 10px 0px;
+		color: #73c5b3;
+	}
+	.s-entrance::before, .navbar-default .navbar-nav > li > a, .s-entrance__link {
+		font-size: 17px;
+		padding: 10px 0px;
+	}
+	.navbar-nav{margin: 0;}
+	.s-entrance::before{content: none;}
+	.s-entrance{text-align: center;}
+	.s-entrance__link{
+		font-size: 40px;
+		text-align: center;
+	}
+	.b-nav__item{
+		padding: 10px 0px;
+		font-size: 20px;
+	}
+	.b-nav__item:hover,
+	.b-nav__item:active{
+		color: #73c5b3;
+	}
+
+	.btn-warning{width: 100%;}
+	 .s-search .s-form__location{
+		width: 100%;
+		margin-bottom: 27px;
+	}
+	.input-group{
+		width: 100%;
+		margin-bottom: 27px;
+	}
+	.s-search .input-group .form-control{
+		float: left;
+		width: 100%;
+	}
+	.s-search .b-search__item{
+		float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 33%;
+    margin-right: 0.3%;
+	}
+	.s-form__select{
+		float: left;
+    width: 100%;
+	}
+	#select{width: 100%;}
+	.b-btn__searchBlock{
+  	padding-left: 30px;
+	}
+
+	.s-map{
+		display: none;
+	}
+
+	.myadvert {
+    margin-bottom: 30px;
+	}
+	.myadvert_wrapper{
+		margin: 0px auto;
+		width: 100%;
+	}
+	.advert_image {
+	  height: 320px;
+	  width: 100%;
+	  overflow: hidden;
+	}
+	.advert_image::before {
+		content: none;
+	}
+	.advert_image img{
+		height: auto;
+	}
+	.advert_bottom{height: auto;}
+	.rank{margin: 20px 15px;}
+	.feedback {
+    padding: 20px 15px;
+	}
+	.advert_description {
+    margin: 0px 15px;
+    text-align: left;
+    color: #5F5F5F;
+	  font-size: 20px;
+	  font-weight: 400;
+	}
+	.myadvert_line{
+		width: 95%;
+		margin: 51px auto 0px;
+	}
+	.advert__new {
+    left: 0%;
+	}
+
+	.s-search__services{
+	  margin-bottom: 27px;
+	}
+	.b-services__howworks__item{
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+		 
+ .b-services__howworks__step1, .b-services__howworks__step2, .b-services__howworks__step3, .b-services__howworks__step4{
+	 	width: 100px;
+		height: 130px;
+		float: left;
+		background-size: 187%;
+		margin-left: 40px;
+		background-position: 50% top;
+ 	}
+	.b-services__howworks__stepTitle{
+		margin-top: 10px;
+		margin-left: 40px;
+		float: left;
+		text-align: left;
+		width: 60%;
+	}
+	.b-services__howworks__stepText{
+		float: left;
+		margin: 0 0 0 40px;
+		max-width: 60%;
+		line-height: 16px;
+		text-align: left;
+		color: #88898B;
+		font-size: 15px;
+	}
+	.services__bottom{
+		bottom: 52px;
+		position: absolute;
+		left: 50%;
+		margin-left: -85px;
+		height: 54px;
+	}
+	.services__img{
+		height: 320px;
+		width: 100%;
+		overflow: hidden;
+	}
+	.services__wrapper{
+		height: auto;
+		background: transparent;
+	}
+	.services__description{
+		padding: 15px 0px;
+		font-size: 18px;
+		background: transparent;
+	}
+	.services__bottom > div:first-child,
+	.services__bottom > .services__brand {
+		display: none;
+	}
+	.services__timer{
+		position: absolute;
+		left: 50%;
+		width: 160px;
+		height: 53px;
+		bottom: -10px;
+	}
+	.services__wrapper .price{
+		top: 50px;
+		bottom: auto;
+	}
+	.services__wrapperText-hover{height: 99%;}
+	.services__wrapperText{height: 42%;}	
+
+	.b-nav__list{
+		float: none;
+		overflow: hidden;
+	}
+		
+		.s-content{clear: both;}
+		.footer {
+    height: auto;
+    padding: 0 0 40px;
+		}
+		.footer_links {
+    	margin-top: 80px;
+		}
+		.footer::before{content: none;}
+		.footer::after{content: none;}
+		.footer a{
+			color: #FFF;
+	    font-size: 18px;
+	    font-weight: 700;
+		}
+
+		.modal-title--responses{
+			border: none;
+		}
+
+	/* arenda.html */
+		.s-search .checkbox{
+			margin-bottom: 0;
+		}
+
+		.s-search .-wg{
+			width: 24.5%;
+			margin-right: 0;
+		}
+		.s-search .-wgt{
+			top: 0;
+		}
+	/* end arenda.html */
+
+	/* arenda_apartment.html */
+		.b-owner__book{
+			position: relative;
+			bottom: 0;
+		}
+		.b-owner {height: auto;}
+		.b-map__owner__adress:nth-child(1){padding-top: 20px;}
+		.b-owner__book {
+	    width: 100%;
+	    text-align: center;
+	    position: relative;
+	    margin-bottom: 30px;
+		}
+		.price-day{
+			position: absolute;
+			display: block;
+			top: 0px;
+			right: 0px;
+			margin-right: 15px;
+		}
+		.btn__owner {width: 70%;}
+
+		.b-map__owner__container{height: 250px;}
+		.-rank_blue {
+	    margin: 0px;
+	    float: right;
+		}
+		.b-comments .btn{width: 70%; margin-bottom: 35px;}
+		.b-comments .btn.btn-default{width: 35%;}
+		.b-similarAds__title{display: inline-block;}
+
+		.users-message__rank{margin: 0;}
+	/* end arenda_apartment.html */
+
+	/* new-ad */
+	.ad__forms__input{width: 100%;}
+	.ad__forms__mult .ad__forms__input{width: 99%;}
+	.new-ad .filter-option{padding: 0 40px;}
+	.new-ad .form-group .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+		width: 100%;
+	}
+	.ad__forms__mult .bootstrap-select .btn-default{
+		width: auto;
+		position: absolute;
+		right: -1%;
+	}
+	.new-ad textarea.form-control{width: 100%;}
+	.new-ad .btn-warning {width: inherit;}
+	.new-ad label{display: block;}
+	.ad__forms__file,
+	.new-ad__hideMap,
+	.new-ad__map,
+	.new-ad .b-comments__header {
+		width: 100%;
+	}
+	.new-ad__title-tips{margin-top: 40px;}
+	.new-ad .btn-warning {width: 50%;}
+
+	#modal__calendar .calendar__date{
+    width: 100%;
+	}
+	#modal__calendar .input-group{
+		float: none;
+		margin-right: 0;
+		width: 44%;
+	}
+	.calendar__price{width: 110px;}
+
+	.new-ad2__input{width: 57%;}
+	.new-ad2__text{width: 42%;}
+
+	.modal__booking__block{
+		width: 95%;
+		margin: 0 auto 30px auto;
+	}
+	.modal__booking__block .input-group{width: 40%;}
+	.modal__booking__price{position: relative;}
+	/* end new-ad */
+
+	.navbar-right .dropdown-menu {
+    right: 0;
+    top: auto;
+	}
+
+	/* booking */
+	.b-booking .myadvert{padding-right: 0;}
+	.b-booking .rank{margin: 20px 15px 20px 0;}
+	.b-booking .advert_description{margin: 0px 15px 0 0;}
+	.b-booking .feedback{padding: 20px 0;}
+	.b-booking .myadvert_line{width: 100%;}
+	
+	.b-booking .fc-toolbar{margin-bottom: 0;}
+	.modal__booking__error{
+		bottom: -93px;
+		position: absolute;
+		left: 50%;
+		margin-left: -108px;
+	}
+	.modal__booking__block{
+		margin: 84px auto 0px;
+		text-align: center;
+		width: 100%;
+	}
+	.b-booking .fc-toolbar .fc-left{
+		position: absolute;
+		top: 30px;
+		left: 50%;
+		margin-left: -142px;
+	}
+	.b-booking .fc-basic-view .fc-body .fc-row{height: 60px;}
+	.b-booking .b-booking__btn{
+		display: block;
+		margin: 0 auto;
+	}
+	/* booking */
+
+	/* services-list */
+	.services-list{padding: 0;}
+	/* end services-list */
+
+	.price { display: block; }
+
+}
+@media only screen and (max-width : 690px){
+	.b-similarAds__title{margin: 0;}
+	.modal__booking .price-day{position: relative;}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 580px) {
+	.advert_image,
+	.services__img {
+	  height: 240px;
+	}
+	.services__wrapper{height: 320px;}
+	.services__timer{bottom: 25px;}
+
+	.b-map__owner__container{height: 210px;}
+
+	.price { display: block; }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.auto{width: auto;}
+	.s-search__services{width: 118.8%;}
+	.s-search__city{
+		margin-left: 24.8%;
+		width: 113%;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.b-booking .b-myadvertList__text{max-width: 96%;}
+}
