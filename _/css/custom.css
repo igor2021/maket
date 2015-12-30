@@ -1,12 +1,55 @@
+div.ic_myCarousel {
+
+    clear:right;
+}
+.infiniteCarousel_item img
+{
+    width:540px;
+}
+.ic_myCarousel .ic_button {
+    /*float: left;*/
+    display: inline-block;
+    height: 50px;
+    line-height: 25px;
+    margin: 4px 4px 0 2px;
+
+    width: 50px;
+    border: 2px solid #eee;
+    background: #ddd;
+}
+.infiniteCarousel {
+    margin: 0 auto !important;
+
+}
+.ic_wrapper {
+    width: 540px !important;
+
+}
+.ic_myCarousel .ic_active {
+    background: #fff;
+    border: 2px solid #1C3F6F;
+}
 /*
  * Default
  */
+h3 {
+    color: #1C3F6F;
+}
+.blue_line {
+    border-top:1px solid #1C3F6F;
+}
 body {
     font-family: "Ubuntu",sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
-
+.properties_product {
+    color:#b4b4b4;
+}
+.properties_product a {
+    color: #b4b4b4;
+    text-decoration:underline;
+}
 /*
  * Main
  */
