@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="ru"> <!--<![endif]-->
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Главная</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap_skin.css">
+
+    <!-- Custom CSS -->
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic&amp;subset=latin,cyrillic'
+          rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="libs/font-awesome-4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/profil.css">
+    <link rel="stylesheet" href="libs/owl.carousel/owl-carousel/owl.carousel.css">
+
+    <script src="libs/modernizr/modernizr.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="libs/html5shiv/es5-shim.min.js"></script>
+    <script src="libs/html5shiv/html5shiv.min.js"></script>
+    <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+    <script src="libs/respond/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<body>
+<!--  navbar  -->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <div class="menu_button navbar-toggle collapsed" data-toggle="collapse"
+                 data-target="#bs-example-navbar-collapse-1">
+                <span class="menu_button_el"></span>
+                <span class="menu_button_el"></span>
+                <span class="menu_button_el"></span>
+            </div>
+            <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> -->
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+
+            <h1 class="s-logo">
+                <a class="hidden-sm logo_link" href="#">
+                    <img class="logo_icon" src="img/logo2.png" alt="" title="">
+                </a>
+                <a href="#" class="visible-sm services__logo modal__logo"></a>
+            </h1>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+            <div class="b-nav__list">
+                <ul class="nav navbar-nav">
+                    <li><a class="b-nav__item" href="#">Аренда<span class="sr-only">(current)</span></a></li>
+                    <li><a class="b-nav__item" href="#">Услуги</a></li>
+                    <li class="active"><a class="b-nav__item" href="#">Магазин</a></li>
+                    <li><a class="b-nav__item" href="#">Создать объявление </a></li>
+                </ul>
+
+                <div class="s-entrance navbar-right">
+                    <a class="s-entrance__link" href="#" data-toggle="modal" data-target="#users-enter">Войти</a>
+                    <a class="s-entrance__link" href="#"><span class="s-icon"><span
+                            class="s-icon-cart"></span></span></span> Корзина</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- /END navbar -->
+
+<!--  s-order  -->
+<section class="s-order">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="b-order__title">Оформление заказа</h1>
+            </div>
+
+            <!-- cart -->
+            <div class="cart col-xs-12 col-sm-12 col-md-8">
+                <table id="cart-table" class="table table-bordered table-hover b-cart__table">
+                    <tbody>
+                    <tr>
+                        <td class="product-image b-cart__image" width="80">
+                            <div itemtype="http://schema.org/ImageObject" itemscope=""><img class="img-responsive"
+                                                                                            itemprop="contentUrl"
+                                                                                            title="" alt=""
+                                                                                            src="img/shop/product_image_02.png">
+                            </div>
+                        </td>
+                        <td class="hidden-xs hidden-sm" width="*">
+                            <div class="b-cart__link">
+                                <a href="#">Подушка Classic by Togas "Антистресс", 70x70</a>
+                            </div>
+                            <div class="b-cart__priceA"><span>3 350</span>.<span>00</span> <i class="fa fa-rub"></i>
+                            </div>
+                        </td>
+                        <td width="80">
+                            <div>
+                                <label for="f-cart__quantity">Количество</label>
+                            </div>
+                            <div class="input-group b-cart__quantity">
+                                <span class="input-group-btn">
+                                    <button data-action="change-quantity" type="button" class="btn btn-secondary minus">
+                                        <i class="fa fa-minus"></i></button>
+                                </span>
+                                <input id="f-cart__quantity" type="text" data-nominal="1" value="1" data-id="1"
+                                       data-type="quantity" size="16" placeholder="1" class="form-control quantity">
+                                <span class="input-group-btn">
+                                    <button data-action="change-quantity" type="button" class="btn btn-secondary plus">
+                                        <i class="fa fa-plus"></i></button>
+                                </span>
+                            </div>
+                        </td>
+                        <td width="120">
+                            <span class="item-price b-cart__priceB"><span>3 350</span>.<span>00</span> <i
+                                    class="fa fa-rub">
+                        </td>
+                        <td width="20">
+                            <div class="b-cart__delete">
+                                <button data-url="/shop/cart/delete?id=1" data-action="delete" type="button"
+                                        class="btn btn-secondary"><i class="fa fa-remove"></i></button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="hidden-xs hidden-sm"></td>
+                        <td></td>
+                        <td><span class="b-cart__labelTotal">Всего к оплате</span></td>
+                        <td>
+                            <span class="b-cart__priceTotal"><span>3 350</span>.<span>00</span> <i
+                                    class="fa fa-rub"></i></span>
+                        </td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- end cart -->
+
+            <!-- customer -->
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <form role="form" method="post" action="/shop/cart/stage" class="form-horizontal" id="shop-stage">
+                    <input type="hidden" value="SzVlekwzU08pBzUyAmQ1Bj9XNSU6QDcNfA0oDzwDG3cdV1QjI2AVPw==" name="_csrf">
+                    <div class="row">
+                        <input type="hidden" value="0" name="Order[customer_id]">
+
+                        <div class="col-xs-12 b-form__head">
+                            <h2>Способ получения</h2>
+                        </div>
+                        <div class="col-xs-12 b-form__field">
+                            <div class="form-group col-xs-12">
+                                <div class="radio__forms">
+                                    <input type="radio" checked="" value="option1" id="optionsRadiosA1"
+                                           name="optionsRadiosA" class="radio">
+                                    <label for="optionsRadiosA1">На пункте выдачи (адреса)</label>
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-12">
+                                <div class="radio__forms">
+                                    <input type="radio" checked="" value="option2" id="optionsRadiosA2"
+                                           name="optionsRadiosA" class="radio">
+                                    <label for="optionsRadiosA2">Курьерская доставка</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 b-form__head">
+                            <h2>Способ оплаты</h2>
+                        </div>
+                        <div class="col-xs-12 b-form__field">
+                            <div class="form-group col-xs-12">
+                                <div class="radio__forms">
+                                    <input type="radio" checked="" value="option1" id="optionsRadiosB1"
+                                           name="optionsRadiosB" class="radio">
+                                    <label for="optionsRadiosB1">На сайте</label>
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-12">
+                                <div class="radio__forms">
+                                    <input type="radio" checked="" value="option2" id="optionsRadiosB2"
+                                           name="optionsRadiosB" class="radio">
+                                    <label for="optionsRadiosB2">Наличными на пункте выдачи</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 b-form__head">
+                            <h2>Дополнительная информация</h2>
+                        </div>
+                        <div class="col-xs-12 b-form__field">
+                            <div class="form-group field-customer-first_name required">
+                                <label for="customer-first_name"
+                                       class="control-label col-xs-3 ad__forms__text-rq">Имя</label>
+                                <div class="col-xs-9">
+                                    <input type="text" name="Customer[first_name]" class="form-control"
+                                           id="customer-first_name">
+                                    <div class="help-block help-block-error "></div>
+                                </div>
+                            </div>
+                            <div class="form-group field-customer-email">
+                                <label for="customer-email"
+                                       class="control-label col-xs-3 ad__forms__text-rq">Email</label>
+                                <div class="col-xs-9">
+                                    <input type="text" name="Customer[email]" class="form-control" id="customer-email">
+                                    <div class="help-block help-block-error "></div>
+                                </div>
+                            </div>
+                            <div class="form-group field-customer-phone">
+                                <label for="customer-phone"
+                                       class="control-label col-xs-3 ad__forms__text-rq">Телефон</label>
+                                <div class="col-xs-9">
+                                    <input type="text" name="Customer[phone]" class="form-control" id="customer-phone">
+                                    <div class="help-block help-block-error "></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-11 col-xs-offset-1 checkbox">
+                            <input type="hidden" value="0" name="RegistrationForm[iagree]">
+                            <input type="checkbox" value="1" name="RegistrationForm[iagree]"
+                                   id="registrationform-iagree">
+                            <label for="registrationform-iagree" class="b-form__label">Я ознакомлен(а) и согласен(-сна)
+                                с <a href="#" target="blank">информацией о продавце и условиями заказа</a>.</label>
+                            <div class="help-block"></div>
+                        </div>
+                        <div class="col-xs-12 text-center">
+                            <button type="submit" class="btn btn-warning s-search__btn">Оплатить</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- end customer -->
+        </div>
+    </div>
+</section>
+<!-- /END s-order -->
+
+<!--  footer  -->
+<footer class="footer">
+    <div class="adverts_after"></div>
+    <div class="adverts_after_border"></div>
+    <div class="container">
+        <div class="row footer_links">
+            <!-- hidden-xs -->
+            <div class="hidden-xs col-lg-2 col-lg-offset-3 col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2">
+                <p><a href="#">Правила сайта</a></p>
+                <p><a href="#">Как заработать на My Linker</a></p>
+                <p><a href="#">Безопасность и гарантии</a></p>
+                <p><a href="#">Карта сайта</a></p>
+            </div>
+            <div class="hidden-xs col-lg-2 col-md-3 col-sm-3">
+                <p class="links_mobile"><a href="#">О компании</a></p>
+                <p class="links_mobile"><a href="#">Контакты</a></p>
+                <p class="links_mobile"><a href="#">Отзывы</a></p>
+                <p class="links_mobile"><a href="#">Правовые документы</a></p>
+            </div>
+            <div class="hidden-xs col-lg-2 col-md-3 col-sm-3">
+                <p><a href="#">Служба поддержки</a></p>
+                <p><a href="#">Вопросы - ответы</a></p>
+                <p><a href="#">Заказать звонок</a></p>
+                <p><a href="#">Мобильное приложение</a></p>
+            </div>
+            <!-- visible-xs -->
+            <div class="visible-xs col-xs-6">
+                <p><a href="#">Служеба поддрежки</a></p>
+                <p><a href="#">Вопрос - ответ</a></p>
+            </div>
+            <div class="visible-xs col-xs-6">
+                <p><a href="#">Как заработать</a></p>
+                <p><a href="#">О компании</a></p>
+            </div>
+        </div>
+        <div class="row phone text-center">
+            <p class="phone hidden-xs">Звонок бесплатный по всей территории России</p>
+            <p class="phone_number">8 800 123-45-67</p>
+            <div class="col-md-4 col-md-offset-4">
+                <div class="social">
+                    <a href="#">
+                        <div class="vk social_label"></div>
+                    </a>
+                    <a href="#">
+                        <div class="fb social_label"></div>
+                    </a>
+                    <a href="#">
+                        <div class="inst social_label"></div>
+                    </a>
+                    <a href="#">
+                        <div class="yout social_label"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bottom"></div>
+</footer>
+<!-- /END footer -->
+
+<!-- Modal users-enter -->
+<div class="modal fade modal__authorize" id="users-enter" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <a class="modal__logo" href="#"></a>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <input type="text" class="form-control form--icon" placeholder="Имя пользователя" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control form--icon" placeholder="Пароль" required>
+                </div>
+                <a href="#" class="modal__authorize__link modal__authorize__link--pas" data-toggle="modal"
+                   data-target="#users-mail">Забыли пароль?</a>
+                <a href="#" class="btn btn-warning calendar__btn--orange">Войти</a>
+                <a href="#" class="btn btn-success calendar__btn--green">Регистрация</a>
+                <p class="users-enter__line-tag">или</p>
+                <a href="#" class="btn btn-primary"><i class="fa fa-vk"></i> Войдите через ВКонтакте</a>
+                <a href="#" class="btn btn-primary -fb"><i class="fa fa-facebook"></i> Войдите через Facebook</a>
+            </div>
+            <div class="modal-footer">
+                <p>Сдаёте жилье или оказываете услуги?</p>
+                <a class="modal__authorize__link" href="#">Зарегистрируйтесь как поставщик</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal users-enter -->
+<div class="modal fade modal__authorize" id="users-registration" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <a class="modal__logo" href="#"></a>
+            </div>
+            <div class="modal-body">
+                <h4 class="modal-title__calendar">Регистрация</h4>
+
+                <div class="form-group">
+                    <input type="text" class="form-control form--icon" placeholder="Имя пользователя" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control form--icon" placeholder="E-mail" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control form--icon" placeholder="Фамилия" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control form--icon" placeholder="Имя" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control form--icon" placeholder="Отчество" required>
+                </div>
+                <div class="form-group modal__authorize__data">
+                    <input type="text" class="form-control form--icon" placeholder="Дата рождения" required>
+                    <i class="fa fa-calendar"></i>
+                </div>
+                <div class="form-group">
+                    <input type="tel" class="form-control form--icon" placeholder="Телефон" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control form--icon" placeholder="Введите пароль" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control form--icon" placeholder="Введите пароль еще раз"
+                           required>
+                </div>
+                <div class="checkbox">
+                    <p>
+                        <input id="yes" type="checkbox">
+                        <label for="yes">Я ознакомлен(а) и согласен(-сна) с Правилами сайта (ссылка) и даю согласие на
+                            обработку своих персональных данных.</label>
+                    </p>
+                </div>
+                <a href="#" class="btn btn-warning calendar__btn--orange">зарегистрироваться</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal users-mail -->
+<div class="modal fade modal__authorize" id="users-mail" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <a class="modal__logo" href="#"></a>
+            </div>
+            <div class="modal-body">
+                <p class="users-mail__text">Введите адрес своей электронной почты, связанной с аккаунтом на My Linker, и
+                    мы вышлем вам ссылку для изменения пароля.</p>
+                <div class="form-group">
+                    <input type="email" class="form-control form--icon" placeholder="E-mail" required>
+                </div>
+                <a href="#" class="btn btn-warning calendar__btn--orange">Отправить</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/placeholders.js"></script>
+<script src="libs/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/carousel.js"></script>
+
+</body>
+</html>

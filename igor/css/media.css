@@ -72,7 +72,10 @@
 		max-width: 100%;
 	}
 
-	.s-search__btn{width: 100%;}
+	.s-search__btn {
+		width: 100%;
+		max-width: 160px;
+	}
 
 	/*servicesApartment*/
 	.carousel-inner{height: 342px;}
@@ -741,6 +744,10 @@
 	/* end services-list */
 
 	.price { display: block; }
+
+	.s-icon > .s-icon-cart {
+		top: 15%;
+	}
 
 }
 @media only screen and (max-width : 690px){

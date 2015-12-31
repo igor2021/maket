@@ -1300,40 +1300,67 @@ input[type="tel"].form--icon {
   width: 0;
   border-top: 34.06px solid #5085bb; }
 
+.hexagon__color1 .hexagon {
+  background-color: #FCD353;
+}
+
+.hexagon__color1 .hexagon:before {
+  border-bottom-color: #FCD353;
+}
+
+.hexagon__color1 .hexagon:after {
+  border-top-color: #FCD353;
+}
+
 .hexagon__color2 .hexagon {
-  background-color: #62ab9a; }
+  background-color: #78C2B1;
+}
   .hexagon__color2 .hexagon:before {
-    border-bottom-color: #62ab9a; }
+    border-bottom-color: #78C2B1;
+  }
   .hexagon__color2 .hexagon:after {
-    border-top-color: #62ab9a; }
+    border-top-color: #78C2B1;
+  }
 
 .hexagon__color3 .hexagon {
-  background-color: #fde085; }
+  background-color: #CEE1DD;
+}
   .hexagon__color3 .hexagon:before {
-    border-bottom-color: #fde085; }
+    border-bottom-color: #CEE1DD;
+  }
   .hexagon__color3 .hexagon:after {
-    border-top-color: #fde085; }
+    border-top-color: #CEE1DD;
+  }
 
 .hexagon__color4 .hexagon {
-  background-color: #76c2af; }
+  background-color: #4472B0;
+}
   .hexagon__color4 .hexagon:before {
-    border-bottom-color: #76c2af; }
+    border-bottom-color: #4472B0;
+  }
   .hexagon__color4 .hexagon:after {
-    border-top-color: #76c2af; }
+    border-top-color: #4472B0;
+  }
 
 .hexagon__color5 .hexagon {
-  background-color: #edb240; }
+  background-color: #9BE5D4;
+}
   .hexagon__color5 .hexagon:before {
-    border-bottom-color: #edb240; }
+    border-bottom-color: #9BE5D4;
+  }
   .hexagon__color5 .hexagon:after {
-    border-top-color: #edb240; }
+    border-top-color: #9BE5D4;
+  }
 
 .hexagon__color6 .hexagon {
-  background-color: #77c2c1; }
+  background-color: #EAA929;
+}
   .hexagon__color6 .hexagon:before {
-    border-bottom-color: #77c2c1; }
+    border-bottom-color: #EAA929;
+  }
   .hexagon__color6 .hexagon:after {
-    border-top-color: #77c2c1; }
+    border-top-color: #EAA929;
+  }
 
 .hexagon__color7 .hexagon {
   background-color: #4472b0; }
@@ -2086,19 +2113,143 @@ input[type="tel"].form--icon {
 /* end users-message */
 
 /* addition #1 */
-.s-icon {
-  position: relative;
-  width: 28px;
-  margin-right: 32px;
+
+.b-order__title {
+  padding-bottom: 15px;
 }
-.s-icon > .s-icon-cart {
-  background: url("../img/shop/cart.png") no-repeat;
-  border: 1px solid white;
-  display: inline-block;
-  position: absolute;
-  top: -36%;
-  height: 30px;
-  width: 28px;
+
+.b-cart__table {
+  border-width: 0px;
+}
+
+.b-cart__table > tbody > tr > td {
+  padding: 10px 5px;
+  border-top: 1px solid #BFC2CB;
+}
+
+.b-cart__table label {
+  color: #8F8F8F;
+  text-transform: uppercase;
+}
+
+.b-cart__image {
+  height: 80px;
+  width: 80px;
+  overflow: hidden;
+}
+
+.b-cart__image img {
+  max-height: 80px;
+}
+
+.b-cart__link {
+  height: 50px;
+  padding: 0px 5px 10px 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.b-cart__link > a {
+  color: #294972;
+  font-size: 15px;
+}
+
+.b-cart__priceA {
+  padding: 0px 5px 5px 10px;
+  color: #8F8F8F;
+}
+
+.b-cart__priceA > span:first-of-type {
+  font-weight: bold;
+}
+
+.b-cart__priceA > span:last-of-type {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.b-cart__priceB {
+  display: block;
+  padding: 26px 5px 5px 10px;
+  color: #1C3F6F;
+  font-size: 20px;
+}
+
+.b-cart__priceB > span:first-of-type {
+  font-weight: bold;
+}
+
+.b-cart__priceB > span:last-of-type {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.b-cart__priceTotal {
+  display: block;
+  padding: 0px 5px 0px 10px;
+  color: #1C3F6F;
+  font-size: 20px;
+}
+
+.b-cart__priceTotal > span:first-of-type {
+  font-weight: bold;
+}
+
+.b-cart__priceTotal > span:last-of-type {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.b-cart__delete {
+  color: #1C3F6F;
+  padding-top: 26px;
+}
+
+.b-cart__delete > button {
+  background-color: transparent;
+}
+
+.b-cart__quantity {
+  width: 120px;
+  max-width: 120px;
+}
+
+.b-cart__quantity .input-group-btn .minus {
+  border: 1px solid #ccc;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.b-cart__quantity .input-group-btn .plus {
+  border: 1px solid #ccc;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.b-cart__labelTotal {
+  color: #1C3F6F;
+  font-size: 16px;
+}
+
+.b-form__head {
+  color: white;
+  background-color: #7BC4B3;
+}
+
+.b-form__head h2 {
+  color: white;
+  margin: 10px 0px;
+  font-size: 14px;
+}
+
+.b-form__field {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  background-color: #F7F7F7;
+}
+
+.b-services__delivery {
+  background-color: white;
 }
 
 .services__price {
@@ -2126,5 +2277,21 @@ input[type="tel"].form--icon {
   text-align: left;
   text-decoration: underline;
   padding-left: 10px;
+}
+
+.s-icon {
+  position: relative;
+  width: 28px;
+  margin-right: 32px;
+}
+
+.s-icon > .s-icon-cart {
+  background: url("../img/shop/cart.png") no-repeat;
+  border: 1px solid white;
+  display: inline-block;
+  position: absolute;
+  top: -36%;
+  height: 30px;
+  width: 28px;
 }
 /* end addition #1 */

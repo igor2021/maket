@@ -17,11 +17,13 @@ jQuery(document).ready(function ($) {
         autoplayTimeout:3000,
         autoplayHoverPause:true,
         items:3,
-        navigation : true, // Show next and prev buttons
+        itemsTablet: [768, 3],
+        itemsMobile: [479, 3],
+        navigation: false, // Show next and prev buttons
         slideSpeed : 300,
         pagination: true,
         paginationSpeed : 400,
-        singleItem:true
+        singleItem: false,
     });
 
     $("#howworks").owlCarousel({
