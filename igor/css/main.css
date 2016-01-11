@@ -2163,6 +2163,10 @@ input[type="tel"].form--icon {
   max-height: 80px;
 }
 
+.b-cart__info {
+
+}
+
 .b-cart__link {
   height: 50px;
   padding: 0px 5px 10px 10px;
@@ -2181,7 +2185,7 @@ input[type="tel"].form--icon {
 }
 
 .b-cart__description {
-
+  padding-top: 15px;
 }
 
 .b-cart__priceA {
