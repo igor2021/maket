@@ -45,6 +45,100 @@
         <div class="col-xs-12">
             <h3>Похожие объявления</h3>
             <hr class="blue_line">
+			<div class="col-lg-3 myadvert">
+                <div class="wrapper_product">
+                    <div class="">
+                        <div class="image_product">
+                            <img src="../images/product/1012365858.jpg">
+                        </div>
+                        <div class="info_product">
+                            <div class="price_product">
+                                <span>5 449 Р</span>
+                                <div class="name_firm">ADIDAS</div>
+                            </div>
+                        </div>
+                        <div class="desc_product">Мягкая игрушка Disney «Сонный Тигруля»</div>
+                    </div>
+                    <div class="highlight_product">
+                        <p class="name_product text-center">Мягкая игрушка "Тигра"</p>
+                        <p>Интерактивный плюшевый приятель для вашего малыша. Старый, добрый приятель из великолепного мультфильма.</p>
+                        <a class="wrapper_info" href="#">Подробнее</a>
+                        <a class="btn btn_product" href="#">Купить</a>
+                    </div>
+
+
+                </div>
+			</div>
+            <div class="col-lg-3 myadvert">
+                <div class="wrapper_product">
+                    <div class="">
+                        <div class="image_product">
+                            <img src="../images/product/1012365858.jpg">
+                        </div>
+                        <div class="info_product">
+                            <div class="price_product">
+                                <span>5 449 Р</span>
+                                <div class="name_firm">ADIDAS</div>
+                            </div>
+                        </div>
+                        <div class="desc_product">Мягкая игрушка Disney «Сонный Тигруля»</div>
+                    </div>
+                    <div class="highlight_product">
+                        <p class="name_product text-center">Мягкая игрушка "Тигра"</p>
+                        <p>Интерактивный плюшевый приятель для вашего малыша. Старый, добрый приятель из великолепного мультфильма.</p>
+                        <a class="wrapper_info" href="#">Подробнее</a>
+                        <a class="btn btn_product" href="#">Купить</a>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-lg-3 myadvert">
+                <div class="wrapper_product">
+                    <div class="">
+                        <div class="image_product">
+                            <img src="../images/product/1012365858.jpg">
+                        </div>
+                        <div class="info_product">
+                            <div class="price_product">
+                                <span>5 449 Р</span>
+                                <div class="name_firm">ADIDAS</div>
+                            </div>
+                        </div>
+                        <div class="desc_product">Мягкая игрушка Disney «Сонный Тигруля»</div>
+                    </div>
+                    <div class="highlight_product">
+                        <p class="name_product text-center">Мягкая игрушка "Тигра"</p>
+                        <p>Интерактивный плюшевый приятель для вашего малыша. Старый, добрый приятель из великолепного мультфильма.</p>
+                        <a class="wrapper_info" href="#">Подробнее</a>
+                        <a class="btn btn_product" href="#">Купить</a>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-lg-3 myadvert">
+                <div class="wrapper_product">
+                    <div class="">
+                        <div class="image_product">
+                            <img src="../images/product/1012365858.jpg">
+                        </div>
+                        <div class="info_product">
+                            <div class="price_product">
+                                <span>5 449 Р</span>
+                                <div class="name_firm">ADIDAS</div>
+                            </div>
+                        </div>
+                        <div class="desc_product">Мягкая игрушка Disney «Сонный Тигруля»</div>
+                    </div>
+                    <div class="highlight_product">
+                        <p class="name_product text-center">Мягкая игрушка "Тигра"</p>
+                        <p>Интерактивный плюшевый приятель для вашего малыша. Старый, добрый приятель из великолепного мультфильма.</p>
+                        <a class="wrapper_info" href="#">Подробнее</a>
+                        <a class="btn btn_product" href="#">Купить</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

@@ -1,3 +1,106 @@
+.wrapper_info {
+    z-index:11;
+    position:relative;
+    color:#fff;
+    text-decoration: underline;
+    margin-bottom:10px;
+    display: block;
+    width:125px;
+    margin:0 auto 10px auto;
+}
+.wrapper_info:hover {
+    color:#000;
+    text-decoration: none;
+}
+.btn_product {
+    display:block;
+    background: transparent;
+    border-color: #fff;
+    position: relative;
+    z-index: 11;
+    -webkit-transition: .5s;
+    transition: .5s;
+    color: #fff;
+    width:125px;
+    margin: auto;
+    text-transform: uppercase;
+}
+.btn_product:hover {
+    color:#000;
+    border-color: #000;
+}
+.myadvert:hover .highlight_product {
+    display:block;
+    position: absolute;
+    top: 0;
+    background: #ebbb2a;
+    width:262px;
+    height: 100%;
+    padding-top: 75px;
+    text-align: center;
+
+}
+.highlight_product {
+
+}
+.name_firm {
+    display: inline;
+    right: 0;
+    position: absolute;
+}
+.desc_product {
+    text-align: center;
+    padding: 10px 0 55px 0px;
+    position: relative;
+    background: #fff;
+}
+.myadvert {
+    margin-bottom:75px;
+}
+.wrapper_product {
+    width:262px;
+    height:292px;
+    z-index: 0;
+    background-color: #fff;
+    overflow: hidden;
+}
+.info_product {
+    position: relative;
+    background: #fff;
+    border-bottom: 1px solid #dfdfdf;
+    margin: auto 10px;
+    padding: 5px;
+}
+.highlight_product {
+    display:none;
+}
+.image_product {
+    width:262px;
+    height:150px;
+}
+.image_product:before {
+    content: "";
+    position: absolute;
+    background: url("/maket/images/hex_wrapper.png");
+    width: 262px;
+    height: 296px;
+    top: 0px;
+    background-size: 100%;
+    z-index: 10;
+}
+.image_product img{
+    width:262px;
+}
+.price_product {
+    color:#1c3f6f;
+    padding: 0 10px;
+    position: relative;
+    font-size: 25px;
+}
+
+.name_product {
+    font-weight:700;
+}
 div.ic_myCarousel {
 
     clear:right;
