@@ -40,6 +40,50 @@
                         <a href="#">Вся информация о товаре <i class="fa fa-info-circle"></i></a>
                     </div>
                 </div>
+
+                <div class="col-lg-12 cart_product">
+                    <div class="">
+                        <div class="input-group-addon">
+                            <div class="price_cart">
+                                3 555 <span class="glyphicon glyphicon-ruble"></span>
+                            </div>
+                        </div>
+                        <div class="input-group-addon">
+                            <div class="col-xs-10 col-xs-offset-1 col-md-12 col-md-offset-0">
+                                <div class="col-xs-12">
+                                    <span class="label_count">Количество</span>
+                                </div>
+                                <div class="input-group">
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-default btn_plusminus" type="button"><span class="glyphicon glyphicon-minus"></span></button>
+                                    </div>
+
+                                    <input type="text" class="form-control">
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-default btn_plusminus" type="button"><span class="glyphicon glyphicon-plus"></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-group-addon hidden-xs">
+                            <div class="col-lg-3">
+                                <a href="#" class="btn btn_buy hidden-xs">купить</a>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="visible-xs col-xs-12 wrapper_btn">
+                        <a href="#" class="btn btn_buy">купить</a>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+
+                    <a class="link_favorites hidden-xs" href="#">Добавить в избранное</a>
+                </div>
+
             </div>
         </div>
         <div class="col-xs-12">
@@ -54,7 +98,7 @@
                         <div class="info_product">
                             <div class="price_product">
                                 <span>5 449 Р</span>
-                                <div class="name_firm">ADIDAS</div>
+                                <div class="name_firm">adidas</div>
                             </div>
                         </div>
                         <div class="desc_product">Мягкая игрушка Disney «Сонный Тигруля»</div>
@@ -78,7 +122,7 @@
                         <div class="info_product">
                             <div class="price_product">
                                 <span>5 449 Р</span>
-                                <div class="name_firm">ADIDAS</div>
+                                <div class="name_firm">adidas</div>
                             </div>
                         </div>
                         <div class="desc_product">Мягкая игрушка Disney «Сонный Тигруля»</div>
@@ -102,7 +146,7 @@
                         <div class="info_product">
                             <div class="price_product">
                                 <span>5 449 Р</span>
-                                <div class="name_firm">ADIDAS</div>
+                                <div class="name_firm">adidas</div>
                             </div>
                         </div>
                         <div class="desc_product">Мягкая игрушка Disney «Сонный Тигруля»</div>
@@ -126,7 +170,7 @@
                         <div class="info_product">
                             <div class="price_product">
                                 <span>5 449 Р</span>
-                                <div class="name_firm">ADIDAS</div>
+                                <div class="name_firm">adidas</div>
                             </div>
                         </div>
                         <div class="desc_product">Мягкая игрушка Disney «Сонный Тигруля»</div>
