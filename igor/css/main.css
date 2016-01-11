@@ -2187,7 +2187,8 @@ input[type="tel"].form--icon {
 }
 .b-cart__link > a {
   color: #294972;
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .b-cart__link2 > a {
