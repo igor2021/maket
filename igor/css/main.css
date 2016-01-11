@@ -2169,10 +2169,19 @@ input[type="tel"].form--icon {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
 .b-cart__link > a {
   color: #294972;
   font-size: 15px;
+}
+
+.b-cart__link2 > a {
+  color: #294972;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.b-cart__description {
+
 }
 
 .b-cart__priceA {
@@ -2320,5 +2329,17 @@ input[type="tel"].form--icon {
   top: -36%;
   height: 30px;
   width: 28px;
+}
+
+.s-order__btn {
+  min-width: 200px;
+}
+.s-order__select {
+  padding-top: 5px;
+}
+.s-order__select > a {
+  color: #A4A4A4;
+  text-decoration: underline;
+  cursor: pointer;
 }
 /* end addition #1 */

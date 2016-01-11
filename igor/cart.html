@@ -12,7 +12,7 @@
 
     <meta charset="utf-8">
 
-    <title>Оформление заказа</title>
+    <title>Корзина</title>
     <meta name="description" content="">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -94,11 +94,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="b-order__title">Оформление заказа</h1>
+                <h1 class="b-order__title">Корзина</h1>
             </div>
 
             <!-- cart -->
-            <div class="cart col-xs-12 col-sm-12 col-md-8">
+            <div class="cart col-xs-12 col-sm-12 col-md-12">
                 <table id="cart-table" class="table table-bordered table-hover b-cart__table">
                     <tbody>
                     <tr>
@@ -107,10 +107,11 @@
                             </div>
                         </td>
                         <td class="hidden-xs hidden-sm" width="*">
-                            <div class="b-cart__link">
+                            <div class="b-cart__link2">
                                 <a href="#">Подушка Classic by Togas "Антистресс", 70x70</a>
                             </div>
-                            <div class="b-cart__priceA"><span>3 350</span>.<span>00</span> <i class="fa fa-rub"></i>
+                            <div class="b-cart__description">
+                                HERET
                             </div>
                         </td>
                         <td width="80">
@@ -156,116 +157,17 @@
             </div>
             <!-- end cart -->
 
-            <!-- customer -->
-            <div class="col-xs-12 col-sm-12 col-md-4">
-                <form role="form" method="post" action="/shop/cart/stage" class="form-horizontal" id="shop-stage">
-                    <input type="hidden" value="SzVlekwzU08pBzUyAmQ1Bj9XNSU6QDcNfA0oDzwDG3cdV1QjI2AVPw==" name="_csrf">
-                    <div class="row">
-                        <input type="hidden" value="0" name="Order[customer_id]">
-
-                        <div class="col-xs-12 b-form__head">
-                            <h2>Способ получения</h2>
-                        </div>
-                        <div class="col-xs-12 b-form__field">
-                            <div class="form-group col-xs-12">
-                                <div class="radio__forms">
-                                    <input type="radio" checked="" value="option1" id="optionsRadiosA1"
-                                           name="optionsRadiosA" class="radio">
-                                    <label for="optionsRadiosA1">На пункте выдачи (адреса)</label>
-                                </div>
-                            </div>
-                            <div class="form-group col-xs-12">
-                                <div class="radio__forms">
-                                    <input type="radio" checked="" value="option2" id="optionsRadiosA2"
-                                           name="optionsRadiosA" class="radio">
-                                    <label for="optionsRadiosA2">Курьерская доставка</label>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 b-form__field2" id="optionsRadiosA2Text">
-                            <div>Заказанные лекарственные средства реализуются на пунтке выдачи (лицензия на фармацевтическую деятельнсоть №___ от «___» ______ 201__ г.)</div>
-                            <div><b>С вами свяжется наш администратор. Пожалуйста, завершите заполнение формы «Контактная информация»</b></div>
-                        </div>
-
-                        <div class="col-xs-12 b-form__head">
-                            <h2>Способ оплаты</h2>
-                        </div>
-                        <div class="col-xs-12 b-form__field">
-                            <div class="form-group col-xs-12">
-                                <div class="radio__forms">
-                                    <input type="radio" checked="" value="option1" id="optionsRadiosB1"
-                                           name="optionsRadiosB" class="radio">
-                                    <label for="optionsRadiosB1">На сайте</label>
-                                </div>
-                            </div>
-                            <div class="form-group col-xs-12">
-                                <div class="radio__forms">
-                                    <input type="radio" checked="" value="option2" id="optionsRadiosB2"
-                                           name="optionsRadiosB" class="radio">
-                                    <label for="optionsRadiosB2">Наличными на пункте выдачи</label>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 b-form__head">
-                            <h2>Дополнительная информация</h2>
-                        </div>
-                        <div class="col-xs-12 b-form__field">
-                            <div class="form-group field-customer-first_name required">
-                                <label for="customer-first_name"
-                                       class="control-label col-xs-3 ad__forms__text-rq">Имя</label>
-                                <div class="col-xs-9">
-                                    <input type="text" name="Customer[first_name]" class="form-control"
-                                           id="customer-first_name">
-                                    <div class="help-block help-block-error "></div>
-                                </div>
-                            </div>
-                            <div class="form-group field-customer-email">
-                                <label for="customer-email"
-                                       class="control-label col-xs-3 ad__forms__text-rq">Email</label>
-                                <div class="col-xs-9">
-                                    <input type="text" name="Customer[email]" class="form-control" id="customer-email">
-                                    <div class="help-block help-block-error "></div>
-                                </div>
-                            </div>
-                            <div class="form-group field-customer-phone">
-                                <label for="customer-phone" class="control-label col-xs-3 ad__forms__text-rq">Телефон</label>
-                                <div class="col-xs-9">
-                                    <input type="text" name="Customer[phone]" class="form-control" id="customer-phone">
-                                    <div class="help-block help-block-error "></div>
-                                </div>
-                            </div>
-                            <div class="form-group field-customer-address" id="field-customer-address">
-                                <label for="customer-address" class="control-label col-xs-3 ad__forms__text-rq">Адрес доставки</label>
-                                <div class="col-xs-9">
-                                    <input type="text" name="Customer[address]" class="form-control" id="customer-address">
-                                    <div class="help-block help-block-error "></div>
-                                    <div class="field-customer-addressMap">Выбрать на карте</div>
-                                    <div class="checkbox">
-                                        <p>
-                                            <input id="field-customer-addressCheck" type="checkbox">
-                                            <label for="field-customer-addressCheck">Использовать этот адрес для следующего заказа.</label>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-11 col-xs-offset-1 checkbox">
-                            <input type="hidden" value="0" name="RegistrationForm[iagree]">
-                            <input type="checkbox" value="1" name="RegistrationForm[iagree]"
-                                   id="registrationform-iagree">
-                            <label for="registrationform-iagree" class="b-form__label">Я ознакомлен(а) и согласен(-сна)
-                                с <a href="#" target="blank">информацией о продавце и условиями заказа</a>.</label>
-                            <div class="help-block"></div>
-                        </div>
-                        <div class="col-xs-12 text-center">
-                            <button type="submit" class="btn btn-warning s-search__btn">Оплатить</button>
-                        </div>
+            <!-- pay -->
+            <div>
+                <div class="col-xs-12 text-right">
+                    <div>
+                        <button type="submit" class="btn btn-warning s-order__btn">Оформить заказ</button>
                     </div>
-                </form>
+                    <div class="s-order__select"><a>Продолжить выбор</a></div>
+                </div>
             </div>
-            <!-- end customer -->
+            <!-- end pay -->
+
         </div>
     </div>
 </section>
