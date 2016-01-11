@@ -2163,8 +2163,20 @@ input[type="tel"].form--icon {
   max-height: 80px;
 }
 
-.b-cart__info {
+.b-cart__info div {
+  float: left;
+  padding-right: 20px;
+  line-height: 16px;
+  color: #8F8F8F;
+}
 
+.b-cart__infoBrand > a {
+  color: #2E4D75;
+  font-weight: bold;
+}
+
+.b-cart__infoProduct > a {
+  color: #8F8F8F;
 }
 
 .b-cart__link {
