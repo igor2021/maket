@@ -28,6 +28,13 @@ textarea {
 .fl_l {
   float: left; }
 
+.field-customer-addressMap {
+  text-align: right;
+  cursor: pointer;
+  color: #8E8E8E;
+  text-decoration: underline;
+}
+
 .center {
   display: block;
   margin: 0 auto; }
@@ -2118,6 +2125,20 @@ input[type="tel"].form--icon {
   padding-bottom: 15px;
 }
 
+.b-order__text {
+  border-top: 2px solid #CCD3DD;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.b-order__payment {
+  padding-bottom: 15px;
+}
+
+.b-order__payment a {
+  cursor: pointer;
+}
+
 .b-cart__table {
   border-width: 0px;
 }
@@ -2246,6 +2267,12 @@ input[type="tel"].form--icon {
   padding-top: 20px;
   margin-bottom: 20px;
   background-color: #F7F7F7;
+}
+.b-form__field2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  background-color: #FFDA6B;
 }
 
 .b-services__delivery {
