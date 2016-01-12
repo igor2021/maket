@@ -516,6 +516,11 @@
 	.s-search__services{
 	  margin-bottom: 27px;
 	}
+	.s-cart-quantity {
+		font-size: 18px;
+		position: relative;
+		top: -6px;
+	}
 	.b-services__howworks__item{
 		margin-right: 15px;
 		margin-left: 15px;
