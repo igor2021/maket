@@ -2163,8 +2163,13 @@ input[type="tel"].form--icon {
   max-height: 80px;
 }
 
+.b-cart__info {
+  border-top: 1px solid #4D4D4D;
+}
+
 .b-cart__info div {
   float: left;
+  padding-top: 10px;
   padding-right: 20px;
   line-height: 16px;
   color: #8F8F8F;
@@ -2181,7 +2186,7 @@ input[type="tel"].form--icon {
 
 .b-cart__link {
   height: 50px;
-  padding: 0px 5px 10px 10px;
+  padding: 0px 5px 10px 0px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -2198,11 +2203,12 @@ input[type="tel"].form--icon {
 }
 
 .b-cart__description {
-  padding-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .b-cart__priceA {
-  padding: 0px 5px 5px 10px;
+  padding: 0px 5px 5px 0px;
   color: #8F8F8F;
 }
 
@@ -2231,6 +2237,23 @@ input[type="tel"].form--icon {
   font-size: 14px;
 }
 
+.b-cart__priceC {
+  display: block;
+  padding: 0px 5px 5px 10px;
+  color: #1C3F6F;
+  font-size: 20px;
+}
+
+.b-cart__priceC > span:first-of-type {
+  font-weight: bold;
+}
+
+.b-cart__priceC > span:last-of-type {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
 .b-cart__priceTotal {
   display: block;
   padding: 0px 5px 0px 10px;
@@ -2253,6 +2276,14 @@ input[type="tel"].form--icon {
 }
 
 .b-cart__delete > button {
+  background-color: transparent;
+}
+
+.b-cart__deleteC {
+  color: #1C3F6F;
+  padding-top: 46px;
+}
+.b-cart__deleteC > button {
   background-color: transparent;
 }
 

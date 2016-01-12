@@ -102,65 +102,64 @@
                 <table id="cart-table" class="table table-bordered table-hover b-cart__table">
                     <tbody>
                     <tr>
-                        <td class="product-image b-cart__image" width="80" rowspan="2">
+                        <td class="product-image b-cart__image" width="80">
                             <div itemtype="http://schema.org/ImageObject" itemscope=""><img class="img-responsive" itemprop="contentUrl" title="" alt="" src="img/shop/product_image_02.png">
                             </div>
                         </td>
-                        <td class="hidden-xs hidden-sm" width="*">
-                            <div class="b-cart__link2">
-                                <a href="#">Подушка Classic by Togas "Антистресс", 70x70</a>
+                        <td width="100%">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-8 col-md-8">
+                                    <div class="b-cart__link2">
+                                        <a href="#">Подушка Classic by Togas "Антистресс", 70x70</a>
+                                    </div>
+                                    <div class="b-cart__description">
+                                        Подушка с чехлом из уникальной ткани «Антистресс» поможет расслабиться после трудного рабочего дня, а на утро почувствовать силы для новых достижений.
+                                    </div>
+                                </div>
+                                <div class="col-xs-10 col-sm-3 col-md-3">
+                                    <div>
+                                        <div class="b-cart__priceA "><span>3 350</span>.<span>00</span> <i class="fa fa-rub"></i></div>
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <label for="f-cart__quantity">Количество</label>
+                                        </div>
+                                        <div class="input-group b-cart__quantity">
+                                        <span class="input-group-btn">
+                                            <button data-action="change-quantity" type="button" class="btn btn-secondary minus">
+                                                <i class="fa fa-minus"></i>
+                                            </button>
+                                        </span>
+                                        <input id="f-cart__quantity" type="text" data-nominal="1" value="1" data-id="1" data-type="quantity" size="16" placeholder="1" class="form-control quantity">
+                                        <span class="input-group-btn">
+                                            <button data-action="change-quantity" type="button" class="btn btn-secondary plus">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="item-price b-cart__priceC"><span>3 350</span>.<span>00</span> <i class="fa fa-rub"></i></span>
+                                    </div>
+                                </div>
+                                <div class="col-xs-2 col-sm-1 col-md-1">
+                                    <div class="b-cart__deleteC">
+                                        <button data-url="/shop/cart/delete?id=1" data-action="delete" type="button" class="btn btn-secondary"><i class="fa fa-remove"></i></button>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="b-cart__description">
-                                Подушка с чехлом из уникальной ткани «Антистресс» поможет расслабиться после трудного рабочего дня, а на утро почувствовать силы для новых достижений.
-                            </div>
-                        </td>
-                        <td width="80">
-                            <div>
-                                <label for="f-cart__quantity">Количество</label>
-                            </div>
-                            <div class="input-group b-cart__quantity">
-                                <span class="input-group-btn">
-                                    <button data-action="change-quantity" type="button" class="btn btn-secondary minus">
-                                        <i class="fa fa-minus"></i></button>
-                                </span>
-                                <input id="f-cart__quantity" type="text" data-nominal="1" value="1" data-id="1"
-                                       data-type="quantity" size="16" placeholder="1" class="form-control quantity">
-                                <span class="input-group-btn">
-                                    <button data-action="change-quantity" type="button" class="btn btn-secondary plus">
-                                        <i class="fa fa-plus"></i></button>
-                                </span>
-                            </div>
-                        </td>
-                        <td width="120"><span class="item-price b-cart__priceB"><span>3 350</span>.<span>00</span> <i class="fa fa-rub"></td>
-                        <td width="20">
-                            <div class="b-cart__delete">
-                                <button data-url="/shop/cart/delete?id=1" data-action="delete" type="button" class="btn btn-secondary"><i class="fa fa-remove"></i></button>
+                            <div class="row b-cart__info">
+                                <div class="b-cart__infoBrand"><a href="#">TOGAS (Россия)</a></div>
+                                <div>Размер 70x70 см</div>
+                                <div>|</div>
+                                <div>Артикул 1242245</div>
+                                <div>|</div>
+                                <div class="b-cart__infoProduct"><a href="#">Вся информация о товаре <i class="fa fa-info-circle"></i></a></div>
                             </div>
                         </td>
                     </tr>
-                    <tr>
-                        <td class="b-cart__info" colspan="4">
-                            <div class="b-cart__infoBrand"><a href="#">TOGAS (Россия)</a></div>
-                            <div>Размер 70x70 см</div>
-                            <div>|</div>
-                            <div>Артикул 1242245</div>
-                            <div>|</div>
-                            <div class="b-cart__infoProduct"><a href="#">Вся информация о товаре <i class="fa fa-info-circle"></i></a></div>
-                        </td>
-                    </tr>
-                    </tbody>
 
-                    <tbody>
-                    <tr>
-                        <td class="hidden-xs hidden-sm"></td>
-                        <td></td>
-                        <td><span class="b-cart__labelTotal">Всего к оплате</span></td>
-                        <td>
-                            <span class="b-cart__priceTotal"><span>3 350</span>.<span>00</span> <i
-                                    class="fa fa-rub"></i></span>
-                        </td>
-                        <td></td>
-                    </tr>
+
                     </tbody>
                 </table>
             </div>
