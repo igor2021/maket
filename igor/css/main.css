@@ -2256,9 +2256,10 @@ input[type="tel"].form--icon {
   background-color: transparent;
 }
 
-.b-cart__quantity {
+.b-cart__quantity[class] {
   width: 120px;
   max-width: 120px;
+  margin-bottom: 13px;
 }
 
 .b-cart__quantity .input-group-btn .minus {
