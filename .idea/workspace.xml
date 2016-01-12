@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fa7fa11-7a61-4b0f-b7f4-81d954dbc05d" name="Default" comment="fix: navbar">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/igor/img/shop/logo2.png" afterPath="$PROJECT_DIR$/igor/img/shop/logo2_.png" />
+    <list default="true" id="4fa7fa11-7a61-4b0f-b7f4-81d954dbc05d" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/igor/img/shop/logo2_.png" afterPath="$PROJECT_DIR$/igor/img/shop/logo2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igor/cart.html" afterPath="$PROJECT_DIR$/igor/cart.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igor/main.html" afterPath="$PROJECT_DIR$/igor/main.html" />
@@ -33,7 +33,7 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14802632">
+            <state vertical-scroll-proportion="0.32894737">
               <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
               <folding />
             </state>
@@ -43,6 +43,11 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="igor20213@gmail.com" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -303,7 +308,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452598675336</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix">
+      <created>1452598805363</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1452598805363</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -355,7 +366,8 @@
     <MESSAGE value="order + cart" />
     <MESSAGE value="fix: order + cart + main + ordering" />
     <MESSAGE value="fix: navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: navbar" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -455,7 +467,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14802632">
+        <state vertical-scroll-proportion="0.32894737">
           <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
           <folding />
         </state>
