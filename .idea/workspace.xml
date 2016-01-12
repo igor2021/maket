@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fa7fa11-7a61-4b0f-b7f4-81d954dbc05d" name="Default" comment="order + cart">
+    <list default="true" id="4fa7fa11-7a61-4b0f-b7f4-81d954dbc05d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igor/cart.html" afterPath="$PROJECT_DIR$/igor/cart.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igor/css/main.css" afterPath="$PROJECT_DIR$/igor/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igor/main.html" afterPath="$PROJECT_DIR$/igor/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igor/order.html" afterPath="$PROJECT_DIR$/igor/order.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igor/ordering.html" afterPath="$PROJECT_DIR$/igor/ordering.html" />
     </list>
     <ignored path="maket.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +32,8 @@
       <file leaf-file-name="order.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/igor/order.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.538462">
-              <caret line="141" column="34" selection-start-line="141" selection-start-column="34" selection-end-line="141" selection-end-column="34" />
+            <state vertical-scroll-proportion="-6.6346154">
+              <caret line="82" column="169" selection-start-line="82" selection-start-column="169" selection-end-line="82" selection-end-column="169" />
               <folding />
             </state>
           </provider>
@@ -50,8 +52,18 @@
       <file leaf-file-name="cart.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/igor/cart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-31.875">
-              <caret line="150" column="56" selection-start-line="150" selection-start-column="44" selection-end-line="150" selection-end-column="56" />
+            <state vertical-scroll-proportion="5.0">
+              <caret line="82" column="169" selection-start-line="82" selection-start-column="169" selection-end-line="82" selection-end-column="169" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/igor/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.29385966">
+              <caret line="448" column="96" selection-start-line="448" selection-start-column="96" selection-end-line="448" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -67,11 +79,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/igor/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37133184">
-              <caret line="2166" column="32" selection-start-line="2166" selection-start-column="32" selection-end-line="2166" selection-end-column="32" />
+            <state vertical-scroll-proportion="-17.12">
+              <caret line="2424" column="1" selection-start-line="2424" selection-start-column="1" selection-end-line="2424" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ordering.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/igor/ordering.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.0">
+              <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="169" />
               <folding />
             </state>
           </provider>
@@ -95,10 +117,11 @@
         <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/_/css/custom.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/igor/main.html" />
+        <option value="$PROJECT_DIR$/igor/ordering.html" />
         <option value="$PROJECT_DIR$/igor/order.html" />
         <option value="$PROJECT_DIR$/igor/cart.html" />
         <option value="$PROJECT_DIR$/igor/css/main.css" />
+        <option value="$PROJECT_DIR$/igor/main.html" />
       </list>
     </option>
   </component>
@@ -352,6 +375,13 @@
       <option name="number" value="Default" />
       <updated>1451370284873</updated>
     </task>
+    <task id="LOCAL-00001" summary="order + cart">
+      <created>1452588263004</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1452588263004</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -367,7 +397,7 @@
     <frame x="0" y="0" width="1920" height="1054" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18854167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18854167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -399,6 +429,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="order + cart" />
     <option name="LAST_COMMIT_MESSAGE" value="order + cart" />
   </component>
@@ -436,10 +467,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/igor/main.html">
+    <entry file="file://$PROJECT_DIR$/igor/libs/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.7884617">
-          <caret line="112" column="52" selection-start-line="112" selection-start-column="44" selection-end-line="112" selection-end-column="52" />
+        <state vertical-scroll-proportion="-5.6538463">
+          <caret line="2676" column="17" selection-start-line="2676" selection-start-column="2" selection-end-line="2676" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -451,34 +483,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/igor/libs/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6538463">
-          <caret line="2676" column="17" selection-start-line="2676" selection-start-column="2" selection-end-line="2676" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/igor/order.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.538462">
-          <caret line="141" column="34" selection-start-line="141" selection-start-column="34" selection-end-line="141" selection-end-column="34" />
+        <state vertical-scroll-proportion="-6.6346154">
+          <caret line="82" column="169" selection-start-line="82" selection-start-column="169" selection-end-line="82" selection-end-column="169" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/igor/cart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.875">
-          <caret line="150" column="56" selection-start-line="150" selection-start-column="44" selection-end-line="150" selection-end-column="56" />
+        <state vertical-scroll-proportion="5.0">
+          <caret line="82" column="169" selection-start-line="82" selection-start-column="169" selection-end-line="82" selection-end-column="169" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/igor/ordering.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="169" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/igor/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37133184">
-          <caret line="2166" column="32" selection-start-line="2166" selection-start-column="32" selection-end-line="2166" selection-end-column="32" />
+        <state vertical-scroll-proportion="-17.12">
+          <caret line="2424" column="1" selection-start-line="2424" selection-start-column="1" selection-end-line="2424" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/igor/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29385966">
+          <caret line="448" column="96" selection-start-line="448" selection-start-column="96" selection-end-line="448" selection-end-column="96" />
           <folding />
         </state>
       </provider>

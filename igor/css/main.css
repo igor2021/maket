@@ -2380,6 +2380,15 @@ input[type="tel"].form--icon {
   width: 28px;
 }
 
+.s-cart-quantity {
+  border: 1px solid #78C2B1;
+  background-color: #78C2B1;
+  padding: 3px 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+}
+
 .s-order__btn {
   min-width: 200px;
 }
@@ -2390,5 +2399,28 @@ input[type="tel"].form--icon {
   color: #A4A4A4;
   text-decoration: underline;
   cursor: pointer;
+}
+
+.youtube-container {
+  display: block;
+  margin: 0 auto;
+  max-width: 784px;
+  width: 100%;
+}
+.youtube-player {
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  width: 100%;
+}
+#youtube-iframe {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 /* end addition #1 */
