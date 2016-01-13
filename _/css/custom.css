@@ -1,3 +1,43 @@
+input {
+    min-width: 40px;
+}
+.price_product_xs {
+    font-family: 'Ubuntu','sans-serif';
+    position: absolute;
+    top: 45px;
+    right: 0;
+    background: #5c6878;
+    color: #fff;
+    padding: 5px 20px 5px 20px;
+    font-size: 18pt;
+}
+.price_product_xs:before {
+    content: "";
+    position:absolute;
+    width:0;
+    height:0;
+    top: 0;
+    left: -20px;
+    border-top: 22px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-right: 10px solid #5c6878;
+}
+.country_product {
+    font-weight:100;
+}
+.bold {
+    font-weight: 700;
+}
+.blue_color {
+    color: #1c3f6f;
+}
+.grey_border {
+    border-color:#e3e3e3;
+}
+hr.grey_border {
+    margin-top:0;
+}
 .label_count {
     position:absolute;
     color:#b4b4b4;
@@ -24,6 +64,45 @@
 }
 .cart_product .input-group-addon {
     height:93px;
+    background-color: #fff;
+}
+.cart_product .input-group-addon:first-child {
+    border-left:0;
+}
+.cart_product .input-group-addon:last-child {
+    border-right:0;
+}
+@media screen and (max-width: 970px) {
+    .cart_product .input-group-addon:nth-child(2) {
+        border-right:0;
+    }
+
+}
+@media screen and (max-width: 1200px) {
+    .wrapper_product {
+        width:100%!important;
+    }
+    .image_product:before {
+        background: none!important;
+    }
+    .myadvert:hover .highlight_product {
+        width:100%!important;
+    }
+    .image_product img {
+
+    }
+    .image_product {
+        width:100%!important;
+    }
+    .desc_product {
+        text-align: left!important;
+        font-size: 14pt;
+    }
+    .myadvert {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 0px!important;
+    }
 }
 .btn_plusminus {
     height:34px;
@@ -82,15 +161,20 @@
     display: inline;
     right: 0;
     position: absolute;
+    font-size: 14pt;
+    text-decoration: underline;
+    top: 5px;
+    font-weight: 500;
 }
 .desc_product {
     text-align: center;
-    padding: 10px 0 55px 0px;
+    padding: 10px 0 71px 0px;
     position: relative;
     background: #fff;
+    color: #a3a5a5;
 }
 .myadvert {
-    margin-bottom:75px;
+    margin-bottom: 75px;
 }
 .wrapper_product {
     width:262px;
@@ -155,7 +239,8 @@ div.ic_myCarousel {
 }
 .infiniteCarousel_item img
 {
-    width:540px;
+    /*width:540px;*/
+    width:100%;
 }
 .ic_myCarousel .ic_button {
     /*float: left;*/
@@ -173,7 +258,7 @@ div.ic_myCarousel {
 
 }
 .ic_wrapper {
-    width: 540px !important;
+    /*width: 540px !important;*/
 
 }
 .ic_myCarousel .ic_active {
